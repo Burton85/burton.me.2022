@@ -6,5 +6,5 @@ import store from './store';
 import App from './App.vue'
 
 const router = createRouter()
-app.config.globalProperties.$com = com;
 const app = createApp(App).use(router).use(store).mount('#app')
+app.config.globalProperties.$com = com;
