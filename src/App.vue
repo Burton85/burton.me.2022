@@ -21,7 +21,7 @@ export default {
     methods: {},
     mounted() {
         document.documentElement.scrollTop = 0;
-        this.$com.FontCtl(document, window);
+        // this.$com.FontCtl(document, window);
     },
 };
 </script>

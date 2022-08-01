@@ -26,6 +26,7 @@ export default createStore({
     },
     actions: {
         async getTrelloJson(context, { name }) {
+            alert(name)
             let url;
             switch (name) {
                 case 'profile':
