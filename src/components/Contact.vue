@@ -21,7 +21,7 @@
 </template>
 <script>
 export default {
-    name: 'Contact',
+    name: 'myContact',
     data() {
         return {
             isMounted: false,

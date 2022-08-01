@@ -13,7 +13,7 @@ import HomeSec from '../components/HomeSec.vue';
 import Footer from '../components/Footer.vue';
 
 export default {
-    name: 'Homepage',
+    name: 'homePage',
     components: {
         Banner,
         Contact,

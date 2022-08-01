@@ -23,13 +23,15 @@ import { mapGetters } from 'vuex';
 export default {
     name: 'HomeSec',
     props: {
-        homeSecList: {
-            type: Object,
-            default: {
-                name: 'None',
-                icon: 'website',
-                contentRef: '',
-            },
+        homeSecList(){
+            return{
+                type: Object,
+                default: {
+                    name: 'None',
+                    icon: 'website',
+                    contentRef: '',
+                }
+            }
         },
     },
     components: {
@@ -41,17 +43,16 @@ export default {
             switch (this.homeSecList.name) {
                 case 'Recently Projects':
                     return this.getProjectList;
-                    break;
                 case 'Learning Notes':
                     return this.getNoteList;
-                    break;
                 case 'Photos Albums':
                     return this.getPhotoList;
-                    break;
                 case 'My Profiles':
                     return this.getProfileList;
-                    break;
+                default :
+                    return []
             }
+            
         },
     },
     data() {

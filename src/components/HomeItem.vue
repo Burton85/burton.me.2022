@@ -11,13 +11,17 @@
 <script>
 export default {
     props: {
-        homeItemList: {
-            type: Object,
-            default: { name: 'nodata', checkItems: [{ name: 'nodata' }, { name: 'nodata' }, { name: 'nodata' }] },
+        homeItemList(){
+            return{
+                type: Object,
+                default: { name: 'nodata', checkItems: [{ name: 'nodata' }, { name: 'nodata' }, { name: 'nodata' }] },
+            }
         },
-        index: {
-            type: String,
-            default: '0',
+        index(){
+            return{
+                type: String,
+                default: '0',
+            }
         },
         type: {
             type: String,

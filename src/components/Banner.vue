@@ -16,7 +16,7 @@ import gh_left from '../assets/graph/gh_left.png';
 import gh_right from '../assets/graph/gh_right.png';
 
 export default {
-    name: 'Banner',
+    name: 'myBanner',
     data() {
         return {
             isMounted: false,
