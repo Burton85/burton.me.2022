@@ -1,6 +1,6 @@
 <template>
     <Banner></Banner>
-    <Contact></Contact>
+    <myContact></myContact>
     <home-sec v-for="(item, index) in secList" :homeSecList="item" :key="index"></home-sec>
     <div class="hr"></div>
     <Footer></Footer>
@@ -8,7 +8,7 @@
 
 <script>
 import Banner from '../components/Banner.vue';
-import Contact from '../components/Contact.vue';
+import myContact from '../components/Contact.vue';
 import HomeSec from '../components/HomeSec.vue';
 import Footer from '../components/Footer.vue';
 
@@ -16,7 +16,7 @@ export default {
     name: 'homePage',
     components: {
         Banner,
-        Contact,
+        myContact,
         HomeSec,
         Footer,
     },
