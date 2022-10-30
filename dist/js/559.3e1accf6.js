@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkburton_me_2022"]=self["webpackChunkburton_me_2022"]||[]).push([[559],{2559:function(n,e,r){r.r(e),r.d(e,{default:function(){return f}});var u=r(3396);const t={class:"sub-page profile"};function s(n,e,r,s,c,a){return(0,u.wg)(),(0,u.iD)("div",t,"PROFILE")}var c={},a=r(89);const o=(0,a.Z)(c,[["render",s]]);var f=o}}]);
+//# sourceMappingURL=559.3e1accf6.js.map

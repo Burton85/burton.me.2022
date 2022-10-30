@@ -61,6 +61,9 @@ export default createStore({
       const result = await dataGetter.getData(url);
       //   console.log(result);
       context.commit(name, result);
+    },
+    async getNotion(){
+      await dataGetter.getNotionData('https://api.notion.com/v1/databases/3c492de9d7f2416dafae30562a157200')
     }
   },
   getters: {
