@@ -27,7 +27,7 @@ export default createStore({
   },
   mutations: {
     project(state, result) {
-      state.projectList = result.checklists;
+      state.projectList = result.checklists.reverse();
     },
     note(state, result) {
       state.noteList = result.checklists;
