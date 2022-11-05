@@ -1,6 +1,6 @@
 <template>
   <li class="home-item" @click="goNext()">
-    <h3 class="home-item-title">{{ homeItemList.name }}</h3>
+    <h3 class="home-item-title" v-html="homeItemList.name"></h3>
     <img
       v-if="
         homeItemList.checkItems &&
